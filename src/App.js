@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import { useFilters } from './Hooks/useFilters';
 import Portada from './components/Portada';
 import Promociones from './components/Promociones';
+import Navbar from './components/Navbar';
+import Form from './components/Form';
 
 
 
@@ -17,6 +19,7 @@ function App() {
   return (
     <>
       <Portada />
+      <Navbar/>
       <div className='cuerpe'>
         {/* <Header /> */}
         <Products products={filteredProducts} />
@@ -25,6 +28,7 @@ function App() {
       <Promociones />
       <div className='lineas'></div>
       <div className='cuerpe'>
+        <Form/>
         <Footer />
       </div>
     </>
