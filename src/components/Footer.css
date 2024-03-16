@@ -19,6 +19,7 @@
   .footer h4, .footer h5 {
     margin: 0;
     display: flex;
+    color: white;
   }
 
   .seleccion{
