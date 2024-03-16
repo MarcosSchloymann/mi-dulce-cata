@@ -24,7 +24,7 @@
     font-size:x-large;
 }
 
-button{
+.form .campo button{
     background-color: #3A2604;
     color: white;
     border-radius: 30px;
