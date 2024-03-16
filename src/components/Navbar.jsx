@@ -12,25 +12,25 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                            <a class="nav-link active" aria-current="page" href="inicio">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">NOSOTROS</a>
+                            <a class="nav-link" href="inicio">NOSOTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">BOMBONES</a>
+                            <a class="nav-link" href="inicio">BOMBONES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">TORTAS</a>
+                            <a class="nav-link" href="inicio">TORTAS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">REGALOS</a>
+                            <a class="nav-link" href="inicio">REGALOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PALETAS</a>
+                            <a class="nav-link" href="inicio">PALETAS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GOMITAS</a>
+                            <a class="nav-link" href="inicio">GOMITAS</a>
                         </li>
                     </ul>
                 </div>
