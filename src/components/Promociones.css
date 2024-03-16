@@ -1,0 +1,25 @@
+.promociones {
+    color: white;
+    background-color: #3A2604;
+    width: 100%;
+    height: auto;
+}
+
+.promociones h1 {
+    /* display: block; */
+    font-size: 3em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+
+
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+
+
+
+}
