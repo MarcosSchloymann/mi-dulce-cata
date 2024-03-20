@@ -46,3 +46,13 @@
     object-fit: cover;
     background: #fff;
   }
+
+  .products .button{
+   display: flex;
+   justify-content: flex-end;
+  }
+
+  .products .titulo-precio{
+    display: flex;
+   justify-content: flex-start;
+  }

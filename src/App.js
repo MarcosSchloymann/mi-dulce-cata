@@ -29,8 +29,8 @@ function App() {
       <div className='lineas'></div>
       <div className='cuerpe'>
         <Form/>
-        <Footer />
       </div>
+      <Footer />
     </>
   )
 }

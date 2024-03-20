@@ -5,8 +5,16 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className='footer'>
-      <h4>Mi Dulce Cata &nbsp;<span>get-it</span></h4>
-      {/* <h5>Shopping Cart con useContext & useReducer</h5> */}
+      <h4>+5493731626149</h4>
+      <h4>
+        mideulcecata@gmail.com
+      </h4>
+      <h4>
+        El Chocolate de las Reinas
+      </h4>
+      <span>
+        get-it
+      </span>
     </footer>
   )
 }

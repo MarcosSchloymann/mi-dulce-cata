@@ -1,5 +1,5 @@
 import './Products.css'
-import { AddToCartIcon } from './Icon'
+// import { AddToCartIcon } from './Icon'
 
 import React from 'react'
 
@@ -12,12 +12,13 @@ const Products = ({products}) => {
                     <img 
                     src={product.thumbnail} 
                     alt={product.title} />
-                    <div>
+                    <div className='titulo-precio'>
                         <strong>{product.title}</strong> - ${product.price}
                     </div>
-                    <div>
+                    <div className='button'>
                         <button>
-                            <AddToCartIcon/>
+                            Consultar
+                            {/* <AddToCartIcon/> */}
                         </button>
                     </div>
                 </li>

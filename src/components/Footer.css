@@ -1,25 +1,45 @@
 .footer {
     position: fixed;
-    left: 16px;
+    right: 1px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     bottom: 16px;
-    text-align: left;
-    background: rgba(0, 0, 0, .7);
+    text-align: center;
     padding: 8px 24px;
     border-radius: 32px;
     opacity: .95;
     backdrop-filter: blur(8px);
   }
   
+  @media (max-width:990px){
+    .footer {
+      position: fixed;
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      bottom: 16px;
+      text-align: center;
+      padding: 8px 24px;
+      border-radius: 32px;
+      opacity: .95;
+      backdrop-filter: blur(8px);
+      gap:1rem
+    }
+  }
+
   .footer span {
     font-size: 14px;
-    color: #09f;
+    color: blue;
     opacity: .8;
   }
   
   .footer h4, .footer h5 {
     margin: 0;
     display: flex;
-    color: white;
+    color: #3A2604;
   }
 
   .seleccion{
