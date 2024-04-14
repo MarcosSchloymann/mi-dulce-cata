@@ -52,7 +52,12 @@
    justify-content: flex-end;
   }
 
+  .products button{
+    color: white;
+  }
+
   .products .titulo-precio{
     display: flex;
    justify-content: flex-start;
+   color: #3A2604;
   }

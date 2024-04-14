@@ -13,11 +13,12 @@ const Products = ({products}) => {
                     src={product.thumbnail} 
                     alt={product.title} />
                     <div className='titulo-precio'>
-                        <strong>{product.title}</strong> - ${product.price}
+                        <strong>{product.title}</strong>
+                         {/* - ${product.price} */}
                     </div>
                     <div className='button'>
                         <button>
-                            Consultar
+                            Detalle
                             {/* <AddToCartIcon/> */}
                         </button>
                     </div>

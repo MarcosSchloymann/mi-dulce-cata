@@ -13,7 +13,7 @@
     backdrop-filter: blur(8px);
   }
   
-  @media (max-width:990px){
+  /* @media (max-width:990px){
     .footer {
       position: fixed;
       display: none;
@@ -28,10 +28,10 @@
       backdrop-filter: blur(8px);
       gap:1rem
     }
-  }
+  } */
 
   .footer span {
-    font-size: 14px;
+    font-size: 15px;
     color: blue;
     opacity: .8;
   }
@@ -40,6 +40,7 @@
     margin: 0;
     display: flex;
     color: #3A2604;
+    font-size: 15px;
   }
 
   .seleccion{
